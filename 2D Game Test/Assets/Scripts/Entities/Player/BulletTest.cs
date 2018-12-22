@@ -1,9 +1,8 @@
 ﻿using System.Collections;
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Bullet : MonoBehaviour
+public class BulletTest : MonoBehaviour
 {
     public float speed = 15f;
     public Rigidbody2D rb;
@@ -28,4 +27,3 @@ public class Bullet : MonoBehaviour
         Destroy(gameObject);
     }
 }
-
